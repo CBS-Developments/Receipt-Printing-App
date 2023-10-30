@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:rec_print_app/Pages/printerPage.dart';
 
-void main() {
-  runApp(const MyApp());
-}
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
