@@ -91,7 +91,7 @@ class _PrinterPageState extends State<PrinterPage> {
         ),
         body: RefreshIndicator(
           onRefresh: () =>
-              bluetoothPrint.startScan(timeout: Duration(seconds: 4)),
+              bluetoothPrint.startScan(timeout: Duration(seconds: 5)),
           child: SingleChildScrollView(
             child: Column(
               children: <Widget>[
